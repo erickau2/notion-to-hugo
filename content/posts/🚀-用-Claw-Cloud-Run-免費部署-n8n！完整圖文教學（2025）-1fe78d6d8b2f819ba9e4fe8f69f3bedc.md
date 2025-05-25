@@ -1,8 +1,8 @@
 ---
 title: "🚀 用 Claw Cloud Run 免費部署 n8n！完整圖文教學（2025）"
 date: "2025-05-25T10:07:00.000Z"
-lastmod: "2025-05-25T10:09:00.000Z"
-draft: true
+lastmod: "2025-05-25T10:16:00.000Z"
+draft: false
 series: []
 tags:
   - "devOps"
@@ -14,7 +14,7 @@ NOTION_METADATA:
   object: "page"
   id: "1fe78d6d-8b2f-819b-a9e4-fe8f69f3bedc"
   created_time: "2025-05-25T10:07:00.000Z"
-  last_edited_time: "2025-05-25T10:09:00.000Z"
+  last_edited_time: "2025-05-25T10:16:00.000Z"
   created_by:
     object: "user"
     id: "83eb8096-da42-4d2d-b65f-d6e75aeeb194"
@@ -36,7 +36,7 @@ NOTION_METADATA:
     draft:
       id: "JiWU"
       type: "checkbox"
-      checkbox: true
+      checkbox: false
     authors:
       id: "bK%3B%5B"
       type: "people"
@@ -62,7 +62,7 @@ NOTION_METADATA:
     Last edited time:
       id: "vbGE"
       type: "last_edited_time"
-      last_edited_time: "2025-05-25T10:09:00.000Z"
+      last_edited_time: "2025-05-25T10:16:00.000Z"
     summary:
       id: "x%3AlD"
       type: "rich_text"

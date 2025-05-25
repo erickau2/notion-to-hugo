@@ -9,7 +9,7 @@ displayName = "EN"
 isoCode = "en"
 rtl = false
 dateFormat = "2 January 2006"
-logo = "IMG_8249B2573E3B-1.jpeg"
+logo = "Subject.png"
 
 ["params.author"]
 name = "tech-bro"

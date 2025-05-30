@@ -1,10 +1,13 @@
 ---
 title: "打造你的智能財經助理：使用n8n自動化市場分析"
 date: "2025-05-25T10:07:00.000Z"
-lastmod: "2025-05-25T10:20:00.000Z"
+lastmod: "2025-05-29T07:41:00.000Z"
 draft: false
 series: []
-tags: []
+tags:
+  - "devOps"
+  - "n8n"
+  - "self-host"
 categories: []
 authors:
   - "ling chi uu"
@@ -12,7 +15,7 @@ NOTION_METADATA:
   object: "page"
   id: "1fe78d6d-8b2f-81c3-a5a5-fd639c4dbab3"
   created_time: "2025-05-25T10:07:00.000Z"
-  last_edited_time: "2025-05-25T10:20:00.000Z"
+  last_edited_time: "2025-05-29T07:41:00.000Z"
   created_by:
     object: "user"
     id: "83eb8096-da42-4d2d-b65f-d6e75aeeb194"
@@ -48,7 +51,16 @@ NOTION_METADATA:
     tags:
       id: "jw%7CC"
       type: "multi_select"
-      multi_select: []
+      multi_select:
+        - id: "e610c277-eedb-4f12-97cb-42b19f1a94c9"
+          name: "devOps"
+          color: "default"
+        - id: "9149a066-555c-466f-91e3-cc23ad48bdd7"
+          name: "n8n"
+          color: "yellow"
+        - id: "5bc30978-2320-468d-aa94-cd3814914cd5"
+          name: "self-host"
+          color: "purple"
     categories:
       id: "nbY%3F"
       type: "multi_select"
@@ -56,7 +68,7 @@ NOTION_METADATA:
     Last edited time:
       id: "vbGE"
       type: "last_edited_time"
-      last_edited_time: "2025-05-25T10:20:00.000Z"
+      last_edited_time: "2025-05-29T07:41:00.000Z"
     summary:
       id: "x%3AlD"
       type: "rich_text"
@@ -208,5 +220,5 @@ https://finnhub.io/api/v1/news?category=general&token=YOUR_API_KEY
 - 建立AI分析工作流
 - 自動整理財經報表
 
-[daily_financial_news.json](https://39edb457.notion-to-hugo.pages.dev/api?block_id=1fe78d6d-8b2f-81a1-b787-d162a9869b4b)
+[daily_financial_news.json](https://notion.tech-bro.top/api?block_id=1fe78d6d-8b2f-81a1-b787-d162a9869b4b)
 

@@ -1,7 +1,7 @@
 ---
 title: "Java 與 Golang 多線程處理的設計比較與 Work Stealing 策略淺談"
 date: "2025-05-31T04:15:00.000Z"
-lastmod: "2025-05-31T04:19:00.000Z"
+lastmod: "2025-05-31T04:49:00.000Z"
 draft: false
 series: []
 tags:
@@ -18,7 +18,7 @@ NOTION_METADATA:
   object: "page"
   id: "20478d6d-8b2f-809f-9f0b-c71ade2a515c"
   created_time: "2025-05-31T04:15:00.000Z"
-  last_edited_time: "2025-05-31T04:19:00.000Z"
+  last_edited_time: "2025-05-31T04:49:00.000Z"
   created_by:
     object: "user"
     id: "83eb8096-da42-4d2d-b65f-d6e75aeeb194"
@@ -78,7 +78,7 @@ NOTION_METADATA:
     Last edited time:
       id: "vbGE"
       type: "last_edited_time"
-      last_edited_time: "2025-05-31T04:19:00.000Z"
+      last_edited_time: "2025-05-31T04:49:00.000Z"
     summary:
       id: "x%3AlD"
       type: "rich_text"
@@ -196,6 +196,9 @@ flowchart TD
 ```
 
 
+![](https://notion.tech-bro.top/api?block_id=20478d6d-8b2f-8090-a0b7-f16dc483489c)
+
+
 ---
 
 
@@ -223,6 +226,9 @@ flowchart TD
     F --> B
 
 ```
+
+
+![](https://notion.tech-bro.top/api?block_id=20478d6d-8b2f-801c-9c00-c9e1c0ec6c16)
 
 
 ---

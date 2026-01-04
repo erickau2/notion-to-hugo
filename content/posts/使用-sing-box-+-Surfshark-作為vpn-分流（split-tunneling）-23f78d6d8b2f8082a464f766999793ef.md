@@ -1,7 +1,7 @@
 ---
 title: "使用 sing-box + Surfshark 作為vpn 分流（split tunneling）"
 date: "2025-07-29T05:51:00.000Z"
-lastmod: "2026-01-03T15:52:00.000Z"
+lastmod: "2026-01-03T16:25:00.000Z"
 draft: false
 series: []
 authors:
@@ -17,7 +17,7 @@ NOTION_METADATA:
   object: "page"
   id: "23f78d6d-8b2f-8082-a464-f766999793ef"
   created_time: "2025-07-29T05:51:00.000Z"
-  last_edited_time: "2026-01-03T15:52:00.000Z"
+  last_edited_time: "2026-01-03T16:25:00.000Z"
   created_by:
     object: "user"
     id: "83eb8096-da42-4d2d-b65f-d6e75aeeb194"
@@ -83,7 +83,7 @@ NOTION_METADATA:
     Last edited time:
       id: "vbGE"
       type: "last_edited_time"
-      last_edited_time: "2026-01-03T15:52:00.000Z"
+      last_edited_time: "2026-01-03T16:25:00.000Z"
     summary:
       id: "x%3AlD"
       type: "rich_text"
@@ -111,9 +111,6 @@ NOTION_METADATA:
 MANAGED_BY_NOTION_HUGO: true
 
 ---
-
-
-# 指定網站走 VPN，其餘流量直連（macOS）
 
 
 ---
@@ -152,7 +149,7 @@ MANAGED_BY_NOTION_HUGO: true
 
 ### 你最後會得到什麼效果？
 
-- macOS **全系統透明代理**（不用逐一設定每個 App）。
+- macOS/iphone (linux/window/andriod也可以啦） **全系統透明代理**（不用逐一設定每個 App）。
 - **只有指定網站會走 Surfshark VPN**。
 - 其他網站維持原本速度與路線。
 
@@ -258,7 +255,7 @@ Surfshark 會自動產生一組 WireGuard 設定。
 到這裡，你已經拿到 sing-box 所需的全部 WireGuard 資料。
 
 
-→這裡有模板直接改需要的地方就好
+→這裡有模板直接改需要的地方就好 
 
 
 ```json
@@ -386,7 +383,7 @@ Surfshark 會自動產生一組 WireGuard 設定。
 ---
 
 
-### Step 3｜在 sing-box VT 建立 Profile 並啟用
+### Step 3｜在 sing-box VT 建立 Profile 並啟用（iphone 步驟也一樣）
 
 1. 打開 **sing-box VT**。
 1. 進入 **Profiles**。
